@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM arm32v7/python:alpine
 
 RUN apk add --no-cache \
   ffmpeg \
