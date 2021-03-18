@@ -1,9 +1,3 @@
-#
-# youtube-dl Server Dockerfile
-#
-# https://github.com/manbearwiz/youtube-dl-server-dockerfile
-#
-
 FROM python:alpine
 
 RUN apk add --no-cache \
